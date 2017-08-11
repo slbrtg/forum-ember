@@ -1,5 +1,10 @@
+<button class="btn btn-danger"{{action 'delete' post}}>Delete Post</button>
 <h1>{{post.title}}</h1>
 <h2>{{post.content}}</h2>
 <h5>Type of post: {{post.type}}</h5>
-<button class="btn btn-danger"{{action 'delete' post}}>Delete Post</button>
 <br>
+<h1>Comments:</h1>
+<hr>
+{{#each post.comments as |comment|}}
+  {{comment-tile comment=comment}}
+{{/each}}
