@@ -1,0 +1,17 @@
+{{#if updatePostForm}}
+  <h1>Update Post</h1>
+  <form>
+    <label for="title">Title</label>
+    {{input value=title id='title'}}
+
+    <label for="Content">Content</label>
+    {{input value=content id='content'}}
+
+    <label for="type">Type</label>
+    {{input value=type id='type'}}
+
+    <button class="btn btn-primary"{{action 'update' post}}>Update Post</button>
+  </form>
+{{else}}
+  <button class="btn btn-warning"{{action 'updatePostForm'}}>Update Post</button>
+{{/if}}

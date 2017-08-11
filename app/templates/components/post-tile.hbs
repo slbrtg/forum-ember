@@ -1,12 +1,4 @@
 <div class="posts">
-  {{#if contentShowing}}
-    <h1><a {{action 'contentHide'}} href="#">{{post.title}}</a></h1>
-    <h3>{{post.content}}</h3>
-  {{else}}
-    <h1><a {{action 'contentShow'}} href="#">{{post.title}}</a></h1>
-  {{/if}}
-  <h5>Topic: {{post.type}}</h5>
-  {{update-post post=post update="update"}}
-  <button class="btn btn-danger"{{action 'delete' post}}>Delete Post</button>
-  <hr>
+<h1>{{#link-to 'post' post.id}}{{post.title}}{{/link-to}}</h1>
+<h4>Type of post: {{post.type}}</h4>
 </div>

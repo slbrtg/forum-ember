@@ -1,0 +1,10 @@
+.nav-list {
+  display: inline-grid;
+  grid-template-columns: 0px 50px 50px 50px;
+  grid-template-rows: 20px;
+  grid-gap: 40px;
+}
+
+.nav-list h5{
+  font-size: 1.4em;
+}
