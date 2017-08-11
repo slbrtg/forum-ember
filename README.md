@@ -1,7 +1,5 @@
 # dev-forum
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A very simple post and comment forum. Meant for discussions on programming computers.
 
 ## Prerequisites
 
@@ -14,7 +12,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone http://github.com/slbrtg/forum-ember` this repository
 * `cd dev-forum`
 * `npm install`
 
@@ -32,14 +30,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember test`
 * `ember test --server`
 
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
