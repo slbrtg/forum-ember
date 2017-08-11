@@ -1,0 +1,7 @@
+<h1>Index page</h1>
+
+{{#each model as |post|}}
+  {{post-tile post=post update="update" destroyPost="destroyPost"}}
+{{/each}}
+
+{{new-post savePost="savePost"}}
