@@ -3,13 +3,13 @@
   <form>
     <label for="title">Title</label>
     {{input value=title id='title'}}
-
+    <br>
     <label for="Content">Content</label>
     {{input value=content id='content'}}
-
-    <label for="type">Type</label>
+    <br>
+    <label for="type">username</label>
     {{input value=type id='type'}}
-
+    <br>
     <button class="btn btn-primary"{{action 'savePost'}}>Save Post</button>
   </form>
 {{else}}
