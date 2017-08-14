@@ -1,6 +1,36 @@
 # dev-forum
 A very simple post and comment forum. Meant for discussions on programming computers.
 
+## Planning
+
+1. Configuration/dependencies
+  * Ember
+  * Firebase
+  * Node
+  * Bootstrap
+
+2. Specs
+  * Spec 1: User can create a post, User clicks new post button, form for new post and post submission appears.
+  * Spec 2: User can comment on a post, user views a post and clicks add comment, form appears which will save the new           comment.
+
+3. Integration
+  * Routes for index, about, contact, and post/:post_id
+  * Template/html page for post
+  * Template/html page for about
+  * Template/html page for contact
+  * Template/html page for post/:post_id
+  * Display all posts on home page
+  * Integrate feature that allows users to comments on posts 
+
+4. UX/UI
+  * Include and modify bootstrap
+  * Develop custom style
+
+5. Polish
+  * Clean up page layout with html, css, and bootstrap
+  * add some type of logo to index
+  * Make README awesome
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
